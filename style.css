@@ -1,23 +1,37 @@
-body
-{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    justify-content: center;
-    background: url(https://media.istockphoto.com/id/801948192/photo/splash-fresh-drop-in-water-close-up.jpg?s=170667a&w=0&k=20&c=byz8e2xGOtwzQCe9UtSDyQTXPUxeM4k2BM19zZBa2N8=);
+* {
+  margin: 0;
+  padding: e;
+  box-sizing: border-box;
+  font-family: Verdana, GenevaTahoma, sans-serif;
 }
-    h1
-    {
-        text-transform:uppercase ;
-        letter-spacing: 4px;
-        font-size: 14px;
-        text-align: center;
-
-    }
-.clock
-{
-    display: flex;
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, "#FBAB7E" #f7ce68 100%);
 }
-.clock S
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container h2,
+.container span {
+  font-size: 6rem;
+  font-weight: 500;
+}
+.container h2 {
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.container p {
+  position: relative;
+  top: -50px;
+  left: l0px;
+  font-size: 2rem;
+}
